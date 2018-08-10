@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18485a"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="103dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="151dp"
+        android:layout_marginStart="56dp"
+        android:background="#19e277"
+        android:text="play"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="297dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#ce09e8"
+        android:textSize="100sp" />
+
+    <TextView
+        android:id="@+id/txt_hs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="53dp"
+        android:text="High Score : 0"
+        android:textColor="#6bebff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_play"
+        android:layout_marginEnd="57dp"
+        android:background="#2654dd"
+        android:text="reset"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
